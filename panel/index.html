@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Управление QR-виджетом</title>
+    <link rel="preconnect" href="https://ntfy.sh" crossorigin />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f1724;
+        --card: #162032;
+        --border: rgba(255, 255, 255, 0.1);
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --amber-grad: linear-gradient(135deg, #f59e0b, #ea580c);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+
+      .wrap {
+        max-width: 440px;
+        margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .timer-row {
+        display: flex;
+        align-items: stretch;
+        gap: 8px;
+      }
+
+      .timer-input-wrap {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        background: var(--card);
+        border: 1px solid rgba(245, 158, 11, 0.35);
+        border-radius: 14px;
+        padding: 0 10px 0 6px;
+        flex-shrink: 0;
+      }
+
+      .timer-input {
+        width: 46px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #fde68a;
+        font: 800 15px/1 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        text-align: center;
+        color-scheme: dark;
+        padding: 12px 0;
+      }
+
+      .timer-unit {
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--muted);
+        user-select: none;
+      }
+
+      #btnShowTimer {
+        flex: 1;
+        min-width: 0;
+        padding: 14px 12px;
+      }
+
+      .btn {
+        appearance: none;
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px 16px;
+        font-size: 14.5px;
+        font-weight: 800;
+        color: #ffffff;
+        background: var(--card);
+        cursor: pointer;
+        transition: opacity 0.15s ease, transform 0.12s ease;
+      }
+
+      .btn:hover {
+        opacity: 0.94;
+      }
+
+      .btn:active {
+        transform: scale(0.985);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .btn {
+          transition: none;
+        }
+        .btn:active {
+          transform: none;
+        }
+      }
+
+      .btn-show {
+        background: var(--amber-grad);
+        border-color: rgba(251, 146, 60, 0.6);
+        box-shadow: 0 8px 24px rgba(234, 88, 12, 0.28);
+      }
+
+      .btn-timer {
+        background: rgba(245, 158, 11, 0.14);
+        border-color: rgba(245, 158, 11, 0.35);
+        color: #fde68a;
+      }
+
+      .btn-hide {
+        background: rgba(220, 38, 38, 0.22);
+        border-color: rgba(248, 113, 113, 0.42);
+        color: #fecaca;
+      }
+
+      .box {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .box-label {
+        font-size: 11.5px;
+        font-weight: 700;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+
+      .url-line {
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 11.5px;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 10px;
+        padding: 8px 10px;
+        color: #e2e8f0;
+        word-break: break-all;
+      }
+
+      .btn-mini {
+        padding: 9px 12px;
+        font-size: 12.5px;
+        font-weight: 700;
+        border-radius: 10px;
+      }
+
+      .status {
+        text-align: center;
+        font-size: 12px;
+        color: var(--muted);
+        min-height: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="controls">
+        <button id="btnShow" class="btn btn-show" type="button">ПОКАЗАТЬ QR (!qr)</button>
+        <div class="timer-row">
+          <label class="timer-input-wrap" for="timerSecInput">
+            <input
+              id="timerSecInput"
+              class="timer-input"
+              type="number"
+              min="1"
+              max="60"
+              step="1"
+              value="15"
+              aria-label="Время показа в секундах (от 1 до 60)"
+            />
+            <span class="timer-unit">сек</span>
+          </label>
+          <button id="btnShowTimer" class="btn btn-timer" type="button">Показать на 15 сек (!qr 15)</button>
+        </div>
+        <button id="btnHide" class="btn btn-hide" type="button">СКРЫТЬ QR (!qr off)</button>
+      </section>
+
+      <div id="statusMsg" class="status" role="status"></div>
+
+      <section class="box">
+        <div class="box-label">Ссылка для Источника Браузера в OBS</div>
+        <div id="obsUrlText" class="url-line"></div>
+        <button id="btnCopyUrl" class="btn btn-mini" type="button">Копировать ссылку для OBS</button>
+      </section>
+    </main>
+
+    <script>window.__TG_QR_STATIC_PAGES__=true;</script>
+    <script>
+      const IS_STATIC_PAGES = Boolean(window.__TG_QR_STATIC_PAGES__);
+      const params = new URLSearchParams(window.location.search);
+      const syncKey = (params.get('key') || 'default').replace(/[^a-zA-Z0-9_-]/g, '') || 'default';
+      const tg = (params.get('tg') || 'heleNyssss').replace(/^@/, '') || 'heleNyssss';
+      const kick = (params.get('kick') || 'helin139ban').trim() || 'helin139ban';
+      const apiBase = (params.get('api') || '').trim().replace(/\/+$/, '');
+      const relayEnabled = params.get('relay') !== '0';
+      const relayTopic = `helin_qr_v2_${tg}_${kick}_${syncKey}`
+        .toLowerCase()
+        .replace(/[^a-z0-9_-]/g, '')
+        .slice(0, 60);
+
+      if (relayEnabled && relayTopic) {
+        // Warm DNS + TLS + HTTP/2 connection before first button press
+        fetch(`https://ntfy.sh/${relayTopic}/json?poll=1`, { mode: 'cors' }).catch(() => {});
+      }
+
+      const overlayPath = window.location.pathname.replace(/\/panel(?:\/index\.html|\/)?$/, '/');
+      const baseOverlayUrl = `${window.location.origin}${overlayPath.endsWith('/') ? overlayPath : `${overlayPath}/`}`;
+      const apiParam = apiBase ? `&api=${encodeURIComponent(apiBase)}` : '';
+      const obsUrl = `${baseOverlayUrl}?tg=${encodeURIComponent(tg)}&kick=${encodeURIComponent(kick)}&key=${encodeURIComponent(syncKey)}&forceMotion=1${apiParam}`;
+      document.getElementById('obsUrlText').textContent = obsUrl;
+
+      const statusMsg = document.getElementById('statusMsg');
+      const timerSecInput = document.getElementById('timerSecInput');
+      const btnShowTimer = document.getElementById('btnShowTimer');
+      const bc = 'BroadcastChannel' in window ? new BroadcastChannel(`helin-tg-qr:${syncKey}`) : null;
+
+      function clampTimerSec(raw) {
+        const n = Math.round(Number(raw));
+        if (!Number.isFinite(n)) return 15;
+        return Math.min(60, Math.max(1, n));
+      }
+
+      function syncTimerButtonLabel(commitValue = false) {
+        const raw = timerSecInput.value.trim();
+        const sec = raw ? clampTimerSec(raw) : 15;
+        if (commitValue) {
+          timerSecInput.value = String(sec);
+        }
+        btnShowTimer.textContent = `Показать на ${sec} сек (!qr ${sec})`;
+        return sec;
+      }
+
+      function formatDoneStatus(visible, clampedSec) {
+        if (!visible) return 'Виджет скрыт';
+        if (clampedSec > 0) return `Виджет показан на ${clampedSec} сек`;
+        return 'Виджет показан на экране';
+      }
+
+      async function sendState(visible, autohideSec = 0) {
+        const clampedSec = visible && Number(autohideSec) > 0 ? clampTimerSec(autohideSec) : 0;
+        const payload = {
+          visible: Boolean(visible),
+          autohideSec: clampedSec,
+          seq: Date.now(),
+        };
+
+        // Update UI status & local browser channels synchronously at 0ms
+        statusMsg.textContent = formatDoneStatus(visible, clampedSec);
+        if (bc) bc.postMessage(payload);
+        try {
+          localStorage.setItem(`helin-tg-qr:${syncKey}`, JSON.stringify(payload));
+        } catch {
+          // Ignore storage errors in private contexts
+        }
+
+        const tasks = [];
+        if (relayEnabled && relayTopic) {
+          tasks.push(
+            fetch(`https://ntfy.sh/${relayTopic}`, {
+              method: 'POST',
+              body: JSON.stringify(payload),
+              keepalive: true,
+            })
+          );
+        }
+
+        if (!IS_STATIC_PAGES || apiBase) {
+          const stateEndpointBase = apiBase || overlayPath.replace(/\/$/, '');
+          tasks.push(
+            fetch(`${stateEndpointBase}/api/state?key=${encodeURIComponent(syncKey)}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload),
+              keepalive: true,
+            }).then(async (r) => {
+              if (!r.ok) return null;
+              const saved = await r.json();
+              if (bc && saved?.seq > payload.seq) bc.postMessage(saved);
+              return saved;
+            })
+          );
+        }
+
+        if (tasks.length > 0) {
+          await Promise.allSettled(tasks);
+        }
+      }
+
+      timerSecInput.addEventListener('input', () => syncTimerButtonLabel(false));
+      timerSecInput.addEventListener('change', () => syncTimerButtonLabel(true));
+      timerSecInput.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter') {
+          ev.preventDefault();
+          const sec = syncTimerButtonLabel(true);
+          sendState(true, sec);
+        }
+      });
+
+      document.getElementById('btnShow').addEventListener('click', () => sendState(true, 0));
+      btnShowTimer.addEventListener('click', () => {
+        const sec = syncTimerButtonLabel(true);
+        sendState(true, sec);
+      });
+      document.getElementById('btnHide').addEventListener('click', () => sendState(false, 0));
+      syncTimerButtonLabel(true);
+      document.getElementById('btnCopyUrl').addEventListener('click', async (ev) => {
+        const btn = ev.currentTarget;
+        try {
+          await navigator.clipboard.writeText(obsUrl);
+          btn.textContent = 'Скопировано!';
+          setTimeout(() => { btn.textContent = 'Копировать ссылку для OBS'; }, 1600);
+        } catch {
+          statusMsg.textContent = obsUrl;
+        }
+      });
+    </script>
+  </body>
+</html>

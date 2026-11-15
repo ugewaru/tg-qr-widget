@@ -1,0 +1,453 @@
+{
+  "channel": "heleNyssss",
+  "handle": "@heleNyssss",
+  "url": "https://t.me/heleNyssss",
+  "title": "heliN139 💀",
+  "subscribers": "118 288 подписчиков",
+  "avatarUrl": "https://cdn4.telesco.pe/file/ENM60LSn-gfS28bmogOPxdnynidqm0kNLR9UtHBIqb7CD0DiFVyonEsaR3wmfYn5dXClk9zgzt7KVIizONKoMdWAmq1UIsMu6iq4-wH-EsReWnXuS-aFbJr1Cd8XD_8NUEyYP8a1KLMXxbDSQXxY7YvZ7E77aS1o5YIa09qDwTFi2zBYWISZGVnCWcDss7u56_QrsVV5dPJ4nPo_isUhIU5auoKzoZR5JahXW848EnSOqOICpEMQs7KkRU6fiqyrVtxwSvmNkktzhDkNJZXANAkN72rFuM1KB4GeDR22CJrHN7dUJEbtuS-j8bWaDwsyXEtShbiSLGfXBFEdrj5_pA.jpg",
+  "emojiMap": {
+    "💀": "https://telegram.org/img/emoji/40/F09F9280.png",
+    "👍": "https://telegram.org/img/emoji/40/F09F918D.png",
+    "👎": "https://telegram.org/img/emoji/40/F09F918E.png",
+    "😎": "https://telegram.org/img/emoji/40/F09F988E.png",
+    "💪": "https://telegram.org/img/emoji/40/F09F92AA.png",
+    "👉": "https://telegram.org/img/emoji/40/F09F9189.png",
+    "😞": "https://telegram.org/img/emoji/40/F09F989E.png",
+    "❤": "https://telegram.org/img/emoji/40/E29DA4.png",
+    "🍓": "https://telegram.org/img/emoji/40/F09F8D93.png",
+    "🍌": "https://telegram.org/img/emoji/40/F09F8D8C.png",
+    "💘": "https://telegram.org/img/emoji/40/F09F9298.png",
+    "👌": "https://telegram.org/img/emoji/40/F09F918C.png",
+    "💔": "https://telegram.org/img/emoji/40/F09F9294.png",
+    "🔥": "https://telegram.org/img/emoji/40/F09F94A5.png",
+    "🤬": "https://telegram.org/img/emoji/40/F09FA4AC.png",
+    "😢": "https://telegram.org/img/emoji/40/F09F98A2.png",
+    "👍🏻": "https://telegram.org/img/emoji/40/F09F918DF09F8FBB.png",
+    "😂": "https://telegram.org/img/emoji/40/F09F9882.png",
+    "❤‍🔥": "https://telegram.org/img/emoji/40/E29DA4E2808DF09F94A5.png",
+    "⚡": "https://telegram.org/img/emoji/40/E29AA1.png",
+    "😁": "https://telegram.org/img/emoji/40/F09F9881.png",
+    "🤪": "https://telegram.org/img/emoji/40/F09FA4AA.png",
+    "😈": "https://telegram.org/img/emoji/40/F09F9888.png",
+    "🤣": "https://telegram.org/img/emoji/40/F09FA4A3.png",
+    "💩": "https://telegram.org/img/emoji/40/F09F92A9.png",
+    "🤡": "https://telegram.org/img/emoji/40/F09FA4A1.png",
+    "🏆": "https://telegram.org/img/emoji/40/F09F8F86.png",
+    "🤯": "https://telegram.org/img/emoji/40/F09FA4AF.png",
+    "👏": "https://telegram.org/img/emoji/40/F09F918F.png",
+    "🌭": "https://telegram.org/img/emoji/40/F09F8CAD.png",
+    "🗿": "https://telegram.org/img/emoji/40/F09F97BF.png",
+    "🍾": "https://telegram.org/img/emoji/40/F09F8DBE.png",
+    "🐳": "https://telegram.org/img/emoji/40/F09F90B3.png",
+    "👾": "https://telegram.org/img/emoji/40/F09F91BE.png",
+    "🤔": "https://telegram.org/img/emoji/40/F09FA494.png",
+    "🙉": "https://telegram.org/img/emoji/40/F09F9989.png",
+    "😐": "https://telegram.org/img/emoji/40/F09F9890.png",
+    "🤝": "https://telegram.org/img/emoji/40/F09FA49D.png",
+    "🖕": "https://telegram.org/img/emoji/40/F09F9695.png",
+    "🤮": "https://telegram.org/img/emoji/40/F09FA4AE.png",
+    "⚡️": "https://telegram.org/img/emoji/40/E29AA1.png",
+    "❤️": "https://telegram.org/img/emoji/40/E29DA4.png",
+    "🥴": "https://telegram.org/img/emoji/40/F09FA5B4.png",
+    "💅": "https://telegram.org/img/emoji/40/F09F9285.png",
+    "🦄": "https://telegram.org/img/emoji/40/F09FA684.png",
+    "🥰": "https://telegram.org/img/emoji/40/F09FA5B0.png",
+    "👻": "https://telegram.org/img/emoji/40/F09F91BB.png",
+    "😍": "https://telegram.org/img/emoji/40/F09F988D.png",
+    "🆒": "https://telegram.org/img/emoji/40/F09F8692.png",
+    "😱": "https://telegram.org/img/emoji/40/F09F98B1.png",
+    "🫡": "https://telegram.org/img/emoji/40/F09FABA1.png",
+    "😅": "https://telegram.org/img/emoji/40/F09F9885.png",
+    "🕊": "https://telegram.org/img/emoji/40/F09F958A.png",
+    "🤩": "https://telegram.org/img/emoji/40/F09FA4A9.png",
+    "💊": "https://telegram.org/img/emoji/40/F09F928A.png",
+    "🥶": "https://telegram.org/img/emoji/40/F09FA5B6.png",
+    "6️⃣": "https://telegram.org/img/emoji/40/36E283A3.png"
+  },
+  "posts": [
+    {
+      "id": "heleNyssss/4324",
+      "postNum": 4324,
+      "datetime": "2026-10-21T14:04:47+00:00",
+      "timeText": "17:04",
+      "dateLabel": "21 октября",
+      "edited": false,
+      "views": "105K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/QYFoRR7g4xGtYn6glIqlzxqcKnLio_Hxk3y2xawBcmKCJteopoEfeQ-E_iyPRpFMSy8NvDDOshPgokP8RKsz25SIZCpcFf99_75nDVYtvetdbSNnmlv8GECkZniasewIlhtJlugarO0JIOVgIIgyYupfSoeVnMSUAXAE_VMYtRjPX57I3ONxr7yt_GJbyczt9FgfimAIxKCa4dK5PJbOWBPUTq0TFiuX6qX2Vau8Bqo0aYqoFwLxtDw3lxeqU-YqyY0quUD_mDhwWY3MvsOsWG4NL93JiwfNnI-eInFz8SurD_Y4AoFzTflnFgeScrlus2_P4xrn3CVZtmnda8nSmg.jpg"
+      ],
+      "roundVideo": null,
+      "video": null,
+      "textHtml": "Дарова 👍<br>Заболел ротовирусом ебаным👎<br>Хуёва шо то 👎<br><br>Пока что на лечебном 👍<br>Не болейте 😍",
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "isStars": true,
+          "count": "28"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "1.02K"
+        },
+        {
+          "emoji": "🤣",
+          "isStars": false,
+          "count": "73"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "isStars": false,
+          "count": "33"
+        },
+        {
+          "emoji": "🤡",
+          "isStars": false,
+          "count": "11"
+        },
+        {
+          "emoji": "👍",
+          "isStars": false,
+          "count": "9"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4342",
+      "postNum": 4342,
+      "datetime": "2026-10-29T11:03:24+00:00",
+      "timeText": "14:03",
+      "dateLabel": "29 октября",
+      "edited": false,
+      "views": "81.7K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/Ji6cCH5CBOzDSjtPyuPV9nVtezRnpdpsBknfDH19XsBFT8FuA1XTXtQLqhIC-_M0BFhDeg8JiLyaWun38B3JoT2isQ9c-OmYhZ4hiFsBhV4cC1wDaziNtQf6DX72901pLu54TZ432oauVSsVK_KI_QjWLFz0kFVAeIIG0HpW-F8KFPCe58J8XkE2jaztg0T6PEQIoosmZvw5EF4_7--w4QvscHwQ8FKOD8iMmTWQGgS73TBH5PUUOJOvL0Wfda1OTC1crWflpL7dRBMpFxOM80hrcCkLz6aUuwde4VBS2zoss2Ige1bP8YlP2HQuv5s3WLhj-5iP7mft1yOXL1iV9w.jpg"
+      ],
+      "roundVideo": null,
+      "video": {
+        "src": "https://cdn4.telesco.pe/file/f4fd9e8d51.mp4?token=PrE8ZhWIzMBgFD8Jds8R-AM18vdJKfAZQbM4ipRN3p7Ur9t4EgQAgxfJDC0C9dIEtTVM2AgiGGmCIv8WnoOFgaj5X39KyZG_c1XP1CP01pn88GFu-w-x1kkV0Psb_Eiyio_43S79fnKZ7d1od6Lzs56fOCoGy8h6s6Hs0Q-LoSnTB-2aZUAkwbkgSNyzvR0z88JyqsnsrOn-TsTT1yehBMELe9DD0LQi4P1XcSGcFwF7BmKddt9OvS9zrNcBTDwrY6XkAb-D-n9YT_vGdNua6NV5u3BzbyEARn4xxIuDKlksciZqGG_StCY4yx-7PMNdfFgU9M3taDPk7UMe6NcQBg",
+        "thumb": "https://cdn4.telesco.pe/file/KIZdo8IXjZrKsFgDooE-L3fBXG68Gltwvr7YMxJRJDwWOevLEj5_belkKnSI-7aQLt1dwD4Hyv40I8NeoDyjVVIuUC2YasbLnV1OVmghoWHLJLWEhUvkRbuAHFakRRk-L1xtS42N7QFFUDccQFzPVUixYbts-p7o5VKuoON2uRALJ9fGwOM7WLD_G0SY5o-H7NXl-h9kIEkkNPvnJl5HsnIv-SRTl5qFeT70nGTWpOfDjv9OakOqd2PzwgrmVZRSaEmSHURa-SHeTHw3kJAxebb54miYggVnRWp52DxNqjAuYcn2dCjGLTmj2pqpjx7JBKNCKJmi-X9zV5PGTj_cnA",
+        "duration": "0:11"
+      },
+      "textHtml": "Купил новый айфон дуо👍",
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "isStars": true,
+          "count": "2"
+        },
+        {
+          "emoji": "💘",
+          "isStars": false,
+          "count": "728"
+        },
+        {
+          "emoji": "🤣",
+          "isStars": false,
+          "count": "344"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "65"
+        },
+        {
+          "emoji": "🤡",
+          "isStars": false,
+          "count": "39"
+        },
+        {
+          "emoji": "😁",
+          "isStars": false,
+          "count": "21"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4355",
+      "postNum": 4355,
+      "datetime": "2026-11-04T12:48:27+00:00",
+      "timeText": "15:48",
+      "dateLabel": "4 ноября",
+      "edited": false,
+      "views": "59.7K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/q31HhJ5__5HHr8zaybnkpo9XNtUkzKuJRJeq6KO_-jHGRM9l09LD57kBpx6WhdKs72_7OeQEHTNzlfUOZnmBeWGTlFiJLSM67PqgoEIR553w_MJhlWYantSDs7RPFCRYCCoO6n8zaJGAyDJbv7M3N_IwsjaU124WJdWCd_vyTIyEjxmlaKxnbM8VT2cQupVrWZyw71zBpvNAsiOj8jC4zUECqX6iv2Y_lXaPy4-RCFLW_7gETJuAsu0VbcsBWkpcG-R9srpWnm5lF_MYJmjPZKtAW_ZciYK9vMOVG3xTpeoCGPS3YD-mCtBhcKudeWA3uCNdTjqdnqxnU6Agh1DKqA.jpg"
+      ],
+      "roundVideo": null,
+      "video": null,
+      "textHtml": "Айфон дуо сила 💪 <br>Считай макбук хех 👌<br><br>Подруб в 20-22👍",
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "isStars": true,
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "941"
+        },
+        {
+          "emoji": "💩",
+          "isStars": false,
+          "count": "113"
+        },
+        {
+          "emoji": "🖕",
+          "isStars": false,
+          "count": "35"
+        },
+        {
+          "emoji": "🤡",
+          "isStars": false,
+          "count": "15"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "isStars": false,
+          "count": "9"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4361",
+      "postNum": 4361,
+      "datetime": "2026-11-10T14:47:58+00:00",
+      "timeText": "17:47",
+      "dateLabel": "10 ноября",
+      "edited": true,
+      "views": "35K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/TxiCTWPVLRVE_Mk4FDu4Zv_ByweFkGzHezi0q16MijbJeuep0SGNv1YfeUPWldWLCDz9oE2px9Dj3gwzg91hj_5opEi-AIqxwgasSf6hi22D9wGy2uj_S9wwFDLTg80dreF5v6q--Fx2r9Ey-sgKxrVqQvZwZoRCUizhfCxMOqn6uCmC805EaC4wLx76V5Wwhz2h6fotgHvTpq89-WHUHexszAodHCHStdvFg7M1-6KYD3pWMjw5q0-2eSFON9o1yG0wNKrmwvym5KfteAYT9074zj6Xt6prgIdJrv1NFioTMNyUwThGOuiEM2mC5lvNcSS5KVqndWEkZhEf8KqhwA.jpg"
+      ],
+      "roundVideo": null,
+      "video": null,
+      "textHtml": "Добрый день 👍🏻<br><br>УБРАЛСЯ В КОМНАТЕ 👍🏻<br>ПЕРЕСТРАИВАЮ КОМНАТУ 👍🏻<br>ПОТОМ ЕДУ НА ОТДЫХ 👍🏻<br>БЛЯЯЯЯЯЯЯЯЯЯ ЗАЕБАЛО 👍🏻<br><br>СТРИМОВ НЕТ = Я СПЛЮ ПО 2Ч ПИЗДЕЦ + РЕСАЮ РЕЖИМ 👍🏻<br>пизда пингвина одним словом хех 😅<br><br>у вас как настроение?&#33;?&#33;?&#33; айфон дуо сила &#33;&#33;&#33;",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "isStars": false,
+          "count": "401"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "75"
+        },
+        {
+          "emoji": "🕊",
+          "isStars": false,
+          "count": "25"
+        },
+        {
+          "emoji": "💩",
+          "isStars": false,
+          "count": "14"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "isStars": false,
+          "count": "4"
+        },
+        {
+          "emoji": "🍾",
+          "isStars": false,
+          "count": "4"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4362",
+      "postNum": 4362,
+      "datetime": "2026-11-11T12:23:12+00:00",
+      "timeText": "15:23",
+      "dateLabel": "11 ноября",
+      "edited": false,
+      "views": "32.1K",
+      "commentsCount": null,
+      "photos": [],
+      "roundVideo": {
+        "src": "https://cdn4.telesco.pe/file/df061be4da.mp4?token=TiqVG3UTdcG8P_1su9S40YujWDiStuamw9RC5yhc4c_E710FdosxkzbPVRmy6mZhFeklwvyW16QJSJMdQpo6W8BIVLTQ5GuFZZV5JWPWt3TB5hp7O4ODsNgDmP5-TFgvQQULyH-sRnUW62tTitJoP8HOh4u2QG-BvTNbg6dxxowE0eLvI7XIvwQyg8jf9m0Kzhz-D89HeiueZHPku0gJP-JMbt_v_sCU4JbmzAQYktTSIOdEbxZRueYoJGNrQTnM77HclZkQgG9Xbe9BfcwGKX4XP-QjUVABny7voPau4kcv4QuvFHii42QN1OWqiDEBimj9XAVH9cXx9zB7GsaoFA",
+        "thumb": "https://cdn4.telesco.pe/file/ulAo5p7evTrpxGdw-WN5LqrEOYYG9PNOLJLMQfjBemxEq-FCHHOxGHJEaApQ8wEDBZ6tE06SDY4VRi78JqRPbdKNgq9gFpEE6ZpcP2xe1RSfhb8IB7bPCBRoycxjCKxIjzZmLfoSlUad5JTAuc21Dd1mP8YEQxYKBcYIvVbAaeIfhrdDZJkxV-LSkkKU8qAT0J8Rx6PsxS29ZiMYv9saTEJPl3Jcudw7h4DC5LeIQpupRWhDLg4j4F6ygVKws-sRExTXf6gKRbIWAzsvecKNxoVGYGdrLP35Cz_amJQtuZVZ7dcx1ElJwBD4Wq2TIwGWsizVH1DL4IPW0x3-C7OyNA",
+        "duration": "0:15"
+      },
+      "video": null,
+      "textHtml": "",
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "isStars": true,
+          "count": "4"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "1.13K"
+        },
+        {
+          "emoji": "🤣",
+          "isStars": false,
+          "count": "232"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "isStars": false,
+          "count": "85"
+        },
+        {
+          "emoji": "👍",
+          "isStars": false,
+          "count": "18"
+        },
+        {
+          "emoji": "😁",
+          "isStars": false,
+          "count": "10"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4363",
+      "postNum": 4363,
+      "datetime": "2026-11-12T19:12:33+00:00",
+      "timeText": "22:12",
+      "dateLabel": "12 ноября",
+      "edited": true,
+      "views": "27.2K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/mWjTUUO1AvmL6UVE54oLVmmoisIqt_yX2ZJ_obrieFQ6qJiJGf6ghEsFo7r-7GxRV_U2pfJsY9FexqpL6NjWRg7aM_cUvezOflRQbmeVblT2FGZnxC474zeCstw5SevGwh5uXA5BBp5W-eRkgoEbPkMrng-sDstHXHg9QRwTJBtEwnY-q9Yge0hgH4lZ9sgpjdf6kiXT8oHlXqOB5R-6sM9deu3DvmpOWRiKrsk_U5yObgsbsAyzlAn47Lf7KwKmJbVSvGUT7X9u2x-c5AB6OFC8Bqs7-JoR7D511NWTODFOJ37Hc4a_NzyQTgmq6K7jZ6Fh1f0veAAF1nZ1KSJjFg.jpg"
+      ],
+      "roundVideo": null,
+      "video": null,
+      "textHtml": "ГАЗЯВА БРАТЬЯ 👌<br><br>завтра утренний вруб в 10-11 играем кс + смотрим матч + МБ ЗАВОЗИМ СТРАШНО 😎<br><br>расскажу вам много нового пока был на неком отдыхе + инсайды ебанутые + новое расположение пк + МИНИ ХОЛОДИЛЬНИК 👌<br>КАРОЧ ЗАВОЗЫ НА НОЯБРЬ АКТИВИРОВАННЫ 😂<br><br>ГАЗЯВЫ + КИРИКИ 🥶",
+      "reactions": [
+        {
+          "emoji": "⭐",
+          "isStars": true,
+          "count": "1"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "497"
+        },
+        {
+          "emoji": "🔥",
+          "isStars": false,
+          "count": "24"
+        },
+        {
+          "emoji": "👌",
+          "isStars": false,
+          "count": "12"
+        },
+        {
+          "emoji": "💘",
+          "isStars": false,
+          "count": "3"
+        },
+        {
+          "emoji": "❤‍🔥",
+          "isStars": false,
+          "count": "2"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4370",
+      "postNum": 4370,
+      "datetime": "2026-11-14T20:50:59+00:00",
+      "timeText": "23:50",
+      "dateLabel": "14 ноября",
+      "edited": false,
+      "views": "17.9K",
+      "commentsCount": null,
+      "photos": [],
+      "roundVideo": null,
+      "video": {
+        "src": "https://cdn4.telesco.pe/file/6a28b2017b.mp4?token=C1Nk-eFBAxWfcNWotMmMhZ_J0oEiGzCHE1pFVrgHR3rw9iOVazJTTzawLUbJ7i7H9kxShfyTHQj9ZKPywscpg_Cs4Jc6nlQlMXpWV2Hi6L1gVrYKqedwWCExeK1SOYE15bcyqxQ-IM0y8cRRoIuj54GFYXkmy9ZiYiYChi4yAuBeVfsGqQpzPc57chx-gnL9eANuDn7xBB3sDegyfwkDRVuKQalx3kbrQQ7ySPRq0deDWJk9OeBpDQ3CnQboUb9zR8lc5bmxr7t_7L31alPCpIBzuvMThgWADwHuHHwNqT-yWpqdgsurWPfwTngiKMkhiwTLTMwNbMa2sIDHkSuOJIi-rc8JTn60jg3WQw8tSra5FJxajnlRbgTcvWPed9A7hoA88mFEYCu96vjiXAEZIAWkQueE-1qfgrnZIiKZoOLSGAUdxqESUh_wv6CWr27chfsCsgVoKSxYSAmHOwd9qM7iqlPdgl1WkxUyV4FV1b61Q8iTvryYmw13wykAZmAL84M8Ol7JirvcyAAKeOKp5D_ZEhqwoY_cuXrmIQkPFgzhCGz6UMwuTUnj_s4PDZe4dZ6NOvNp-dJRftmQqnzb8PDbBsTnn49KDphInnbCV3xZTrl6vLoFMz2QYxq3AZWfks8FtguR1kxPhFOt7Z_JSDXnBAlnUdZaDVx7DBCB7MQ",
+        "thumb": "https://cdn4.telesco.pe/file/ThQYEuAWbpfgb-m6X9pO8qNKOWlqGlKoJmlGznI7emeADMAAKrqzEYfij-NhCqw1cUhRzhDJuwRsuYwvsRRc2eGadC7Jm6veNQalPLQs53gtf-n1eItHvHvTRqq76RT3J-0ZoeEis_gRVh-dqd2i4mhkdHeUp8Dksvk5dUu0is8bfn_xj80rkQFHua93Y7q627qkodh4o0genl9tpWTlMbdk5tqPMC3Uig2LI1d6_N5hkT7-nblZELCCWyh1baTZCPW__BQzYARumJnzl7lIxwsSHxFgBdNFc8UC0UOcCrlWbHmYteDzjkZNao-Y70b06Qm1RXfBHALhDw8mnWXP8g",
+        "duration": ""
+      },
+      "textHtml": "<b><i>Получить кастомный автомобиль в честь выхода GTA </i></b>6️⃣<b><i>? Легко&#33;</i></b> Ведь 😍 <b>BETBOOM</b> запустил новую акцию «ЗДЕСЬ ГТА ШЕСТЬ»&#33;<br><br>Акция продлится с 5 по 23 ноября и разделена на шесть этапов – по количеству звёзд розыска в игре, – каждый из которых продлится три дня.<br><br><b><i>Что нужно делать:</i></b> переходи на <span>страницу акции</span> и лутай купоны за каждый прогноз от 1000 рублей с коэффициентом от 1,3. <br><br>Каждый этап акции завершится розыгрышем <b>крутых призов</b>: копии GTA VI, техника Apple, игровые приставки, компьютерная периферия и фрибеты. А главный приз акции – кастомный автомобиль Chrysler New Yorker XIII. <br><br><span><b>Акция</b></span> уже началась, так что ждем тебя в игре&#33;",
+      "reactions": [
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "126"
+        },
+        {
+          "emoji": "💩",
+          "isStars": false,
+          "count": "33"
+        },
+        {
+          "emoji": "👎",
+          "isStars": false,
+          "count": "13"
+        },
+        {
+          "emoji": "🤡",
+          "isStars": false,
+          "count": "12"
+        },
+        {
+          "emoji": "👍",
+          "isStars": false,
+          "count": "4"
+        },
+        {
+          "emoji": "🐳",
+          "isStars": false,
+          "count": "3"
+        }
+      ]
+    },
+    {
+      "id": "heleNyssss/4371",
+      "postNum": 4371,
+      "datetime": "2026-11-15T07:38:21+00:00",
+      "timeText": "10:38",
+      "dateLabel": "15 ноября",
+      "edited": false,
+      "views": "10.5K",
+      "commentsCount": null,
+      "photos": [
+        "https://cdn4.telesco.pe/file/DGFvmnQra5oNoxe6Viuh84csQiJqz555eqM-1fMWwkcjvW--a_GTn5LEcA8gz-pr3teDKe6CKcxcdkFvfCGeurII9csZ6w6QbBCmSVNmo4JQ-UGGwc0NfhjC4JnsWeZOps4dslvj9Wlg4CP7k6rhBeYAmTxqg477J4dIQUg76D3j0V3uePp2a0bdsstCCF2anaA92CRseDO4J-goNaf8LzxsLMY16MuZnCLqHwmiJPvsd3sNkjvTrjxYs9w8Obtw99V1oi-JiGh-LxQNDSU55E4r7PSAQZx--k4JwvNhJCfK536WBt_gkRJ5RML9y0pB8vpwn-17uwqHfOAz63zkAg.jpg"
+      ],
+      "roundVideo": null,
+      "video": null,
+      "textHtml": "ФИНАЛ ДОНК ПРОТИВ МОЛОДОГО 💀<br>БОГ СТАВОК💀<br>+РП МАДЖЕСТИК СИЛА💀<br>АУРА💀<br><br><span>https://kick.com/helin139ban</span><br><span>https://kick.com/helin139ban</span><br><span>https://kick.com/helin139ban</span>",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "isStars": false,
+          "count": "132"
+        },
+        {
+          "emoji": "❤",
+          "isStars": false,
+          "count": "27"
+        },
+        {
+          "emoji": "🖕",
+          "isStars": false,
+          "count": "5"
+        },
+        {
+          "emoji": "💩",
+          "isStars": false,
+          "count": "4"
+        }
+      ]
+    }
+  ],
+  "fetchedAt": "2026-11-15T11:40:00.351Z",
+  "avatarLocalUrl": "./assets/avatar.jpg"
+}
